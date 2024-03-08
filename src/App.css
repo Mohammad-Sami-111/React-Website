@@ -1,0 +1,108 @@
+.App {
+  display: flex;
+  height: 100vh;
+  background-color: #FAFBFC;
+}
+
+.right {
+  flex: 1;
+  /* background-color: #f4f4f4; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+label.required:after {
+  content: '*';
+  color: rgb(205, 4, 4);
+}
+
+#outlined-basic {
+  width: 400px;
+  font-size: 1.1rem;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.continue-with-microsoft {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  width: 476px;
+}
+
+.continue-with-google {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  width: 476px;
+  color: red;
+  top: 20px;
+
+}
+
+.continue-with-microsoft img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.continue-with-google img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.forgot-password {
+  margin-left: auto;
+  /* Aligns the link to the right */
+  font-size: 1.1rem;
+  margin-top: 2%;
+  /* Adds space between the link and the button */
+}
+
+#signin {
+  background-color: #4F46E5;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  margin-top: 4%;
+  border-radius: 3px;
+
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
